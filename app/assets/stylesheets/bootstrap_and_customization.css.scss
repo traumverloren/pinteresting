@@ -1,9 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Armata);
 
-$navbar-inverse-bg: #1abc9c;
-$navbar-inverse-border: #1abc9c;
-$navbar-inverse-link-color: white;
-$navbar-inverse-link-hover-color: #f1c40f;
-$btn-primary-bg: #1abc9c;
-$jumbotron-bg: #ecf0f1;
+$font-family-sans-serif:              'Armata', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$brand-primary:                       #FF5475;
+$navbar-height:                       40px;
+$navbar-default-brand-color:          #FF5475;
+$navbar-default-bg:                   #1abc9c;
+$navbar-default-border:               #1abc9c;
+$navbar-default-link-color:           white;
+$navbar-default-link-hover-color:     #FF5475;
+$btn-primary-bg:                      #1abc9c;
+$jumbotron-bg:                        white;
+$body-bg:                             #ecf0f1;
+$navbar-default-toggle-border-color:  #16a085;
+$navbar-default-toggle-icon-bar-bg:   #16a085;
+$navbar-default-toggle-hover-bg:      darken($navbar-default-toggle-icon-bar-bg, 6.5%);
+$link-color:                          #FF5475;
+$well-bg:                             white;
+$well-border:                         white;
 
 @import 'bootstrap';
+
+.center {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
