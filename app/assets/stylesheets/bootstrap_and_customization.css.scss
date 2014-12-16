@@ -20,7 +20,7 @@ $link-color:                          #FF5475;
 @import 'bootstrap';
 
 #jumbo-bg {
-  background: url(242.gif);
+  background: asset_url('242.gif');
 }
 
 .center {
