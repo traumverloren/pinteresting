@@ -16,6 +16,7 @@ $navbar-default-toggle-icon-bar-bg:   #16a085;
 $navbar-default-toggle-hover-bg:      darken($navbar-default-toggle-icon-bar-bg, 6.5%);
 $link-color:                          #FF5475;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .center {
